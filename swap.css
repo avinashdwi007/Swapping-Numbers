@@ -1,0 +1,53 @@
+::selection{
+  background-color: rgba(255, 255, 0, 0.471);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: #fff;
+}
+
+.main{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background: linear-gradient(150deg,#1f1a31, #391532);
+  gap: 10px;
+}
+input{
+  width: 50%;
+  padding: 1vw;
+  outline: none;
+  font-size: 1.5vw;
+  text-transform: capitalize;
+}
+
+button{
+  padding: 1vw 2vw;
+  border-style: none;
+  background-color: #851e3e;
+  color: #fff;
+  font-weight: 980;
+  font-size: 2.8vw;
+  transition: background-color ease-in-out 0.1s;
+}
+button:active{
+  background-color: #d43a6b;
+}
+
+.btns{
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

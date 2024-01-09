@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="swap.css" />
+    <title>Your Web Page</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1 style="color: #fff; font-size: 5vw; margin-bottom: 35px;">Swapping Function</h1>
+
+      <label for="input1">First Value  <i class="ri-arrow-down-s-fill"></i></label>
+      <input
+      type="text"
+      name="input1"
+      id="input1"
+      placeholder="enter number first"
+      />
+      <label for="input1">Second Value <i class="ri-arrow-down-s-fill"></i></label>
+      <input
+      type="text"
+      name="input2"
+      id="input2"
+      placeholder="enter number second"
+      />
+      
+      <h4 id="firstVal" style="font-size: 2vw;"></h4>
+      <h4 id="secondVal" style="font-size: 2vw;"></h4>
+      <h4 id="default" style="font-size: 2vw;"></h4>
+
+      <div class="btns">
+        <button id="swapButton" type="button">Swap</button>
+        <button style="background-color: #3da4ab;" id="clearButton" type="button">Clear</button>
+      </div>
+    </div>
+    </body>
+    
+  <script src="swap.js"></script>
+</html>
